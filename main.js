@@ -1,16 +1,18 @@
-(function () {
+(function () { 
 
-    let template = document.createElement("template");
-
-    template.innerHTML = `
-
-      <div id="root" style="width: 100%; height: 100%;">
-
-        <div id="chart-container"></div>
-
-      </div>
-
-    `;
+  let template = document.createElement("template");
+  
+  template.innerHTML = `
+  
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+  
+    <div id="root" style="width: 100%; height: 100%;">
+    
+      <div id="chart-container"></div>
+    
+    </div>
+    
+  `;
 
  
 

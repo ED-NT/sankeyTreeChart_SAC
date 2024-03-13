@@ -1,71 +1,32 @@
 {
-
   "eula": "",
-
   "vendor": "s0q6a",
-
   "license": "",
-
   "id": "com.sap.sac.sample.echarts.prepared",
-
   "version": "1.0.0",
-
   "name": "SankeyTreeChart",
-
   "newInstancePrefix": "SankeyTreeChart",
-
   "description": "A custom widget for displaying a Sankey tree chart in SAP Analytics Cloud",
-
+  "icon": "https://ed-nt.github.io/icon.png",
   "webcomponents": [
-
     {
-
       "kind": "main",
-
       "tag": "com-sap-sample-echarts-prepared",
-
       "url": "https://ed-nt.github.io/sankeyTreeChart_SAC/main.js",
-
       "integrity": "",
-
       "ignoreIntegrity": true
-
     }
-
   ],
-
   "properties": {
-
     "width": {
-
       "type": "integer",
-
       "default": 600
-
     },
-
     "height": {
-
       "type": "integer",
-
       "default": 420
-
     }
-
   },
-
   "methods": {},
-
-  "events": {},
-
-  "dependencies": {
-
-    "echarts": {
-
-      "src": "https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"
-
-    }
-
-  }
-
+  "events": {}
 }
