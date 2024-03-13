@@ -1,65 +1,71 @@
 {
-"eula": "",
 
-    "vendor": "s0q6a",
+  "eula": "",
 
-    "license": "",
+  "vendor": "s0q6a",
 
-    "id": "com.sap.sac.sample.echarts.prepared",
+  "license": "",
 
-    "version": "1.0.0",
+  "id": "com.sap.sac.sample.echarts.prepared",
 
-    "name": "SankeyWithDummyData",
+  "version": "1.0.0",
 
-    "newInstancePrefix": "SankeyWithDummyData",
+  "name": "SankeyTreeChart",
 
-    "description": "A sankey  custom widget wrapped EChart Prepared",
+  "newInstancePrefix": "SankeyTreeChart",
 
-    "icon": "",
+  "description": "A custom widget for displaying a Sankey tree chart in SAP Analytics Cloud",
 
-    "webcomponents": [
+  "webcomponents": [
 
-      {
+    {
 
-        "kind": "main",
+      "kind": "main",
 
-        "tag": "com-sap-sample-echarts-prepared",
+      "tag": "com-sap-sample-echarts-prepared",
 
-        "url": "",
+      "url": "https://ed-nt.github.io/sankeyTreeChart_SAC/main.js",
 
-        "integrity": "",
+      "integrity": "",
 
-        "ignoreIntegrity": true
-
-      }
-
-    ],
-
-    "properties": {
-
-          "width": {
-
-              "type": "integer",
-
-              "default": 600
-
-          },
-
-          "height": {
-
-              "type": "integer",
-
-              "default": 420
-
-          }
-
-    },
-
-    "methods": {
-
-    },
-
-    "events": {
+      "ignoreIntegrity": true
 
     }
+
+  ],
+
+  "properties": {
+
+    "width": {
+
+      "type": "integer",
+
+      "default": 600
+
+    },
+
+    "height": {
+
+      "type": "integer",
+
+      "default": 420
+
+    }
+
+  },
+
+  "methods": {},
+
+  "events": {},
+
+  "dependencies": {
+
+    "echarts": {
+
+      "src": "https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"
+
+    }
+
   }
+
+}
